@@ -9,4 +9,5 @@ r = requests.get(url)
 print(r.content)
 
 url2 = "http://212.64.19.41:9000/zentao/bug-browse-1.html"
-r = requests.post(url2)
+r2 = requests.post(url2)
+print(r2.content)
